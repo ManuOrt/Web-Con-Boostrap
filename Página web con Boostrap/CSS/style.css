@@ -1,0 +1,121 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+
+.altura-a-b {
+padding: 100px 0;
+}
+
+.logotipo {
+    width: 150px;
+    padding: 10px 0;
+}
+
+.sps--abv{
+    background-color: transparent;
+    color: #fff;
+}
+
+nav.sps--abv .logotipo {
+    width: 180px;
+}
+
+.sps--blw {
+    background-color: #2b2b2b;
+    color: #fff;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icono-redes {
+    width: 20px;
+    margin: 10px 5px;
+}
+
+.banner-video {
+    background-image: url(/images/home/video-bg.jpg);
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+
+.banner-video img {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+/** somos*/
+
+.cabecera-somos {
+    padding: 150px 0 100px 0;
+    background-image: url(../images/somos/slider-interior.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-somos {
+    background-image: url(../images/somos/somos-equipo.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.separate {
+    margin-left: 200px;
+}
+
+/**Contacto y striper */
+.btn {
+    background-color: rgb(80, 77, 77);
+    border-color: rgb(80, 77, 77);
+}
+
+.btn:hover {
+    background-color: rgb(94, 190, 94);
+    border-color: rgb(94, 190, 94);
+}
+
+/**footer*/
+
+footer {
+    background-color: #000000;
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer .logotipo-footer {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    bottom: 20%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: left; 
+}
+
+.btn-light {
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: transparent;
+    border-color: #f8f9fa;
+    border-radius: 2px solid #fff;
+    padding-left: 25px;
+    padding-right: 25px;
+}
